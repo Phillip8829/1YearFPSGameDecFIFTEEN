@@ -12,8 +12,6 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _COLORMAPBLENDING
-  - _HEIGHTMAPBLENDING
-  - _PROCEDURALPUDDLES
   - _PROCEDURALSNOW
   - _PROCEDURALSNOW_ON
   - _TESSELLATION
@@ -173,7 +171,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Blend: 0
-    - _BlendingDistance: 50000
+    - _BlendingDistance: 8000
     - _Depth1: 0.5
     - _Depth2: 0.5
     - _Depth3: 0.5
@@ -210,17 +208,17 @@ Material:
     - _HeightShift6: 0
     - _HeightShift7: 0
     - _HeightShift8: 0
-    - _HeightmapBlending: 0.001
+    - _HeightmapBlending: 0.25
     - _HelpSnowMapping: 0
     - _Intensity: 0.5
-    - _LayerAO1: 0
-    - _LayerAO2: 0
-    - _LayerAO3: 0
-    - _LayerAO4: 0
-    - _LayerAO5: 0
-    - _LayerAO6: 0
-    - _LayerAO7: 0
-    - _LayerAO8: 0
+    - _LayerAO1: 1
+    - _LayerAO2: 1
+    - _LayerAO3: 1
+    - _LayerAO4: 1
+    - _LayerAO5: 1
+    - _LayerAO6: 1
+    - _LayerAO7: 1
+    - _LayerAO8: 1
     - _LayerDepth: 0.0005
     - _LayerSmoothness0: 0
     - _LayerSmoothness1: 0
@@ -246,30 +244,30 @@ Material:
     - _Metallic2: 0
     - _Metallic3: 0
     - _NoiseIntensity: 0
-    - _NoiseTiling: 0
-    - _NoiseTiling1: 0
-    - _NoiseTiling2: 0
-    - _NoiseTiling3: 0
-    - _NoiseTiling4: 0
-    - _NoiseTiling5: 0
-    - _NoiseTiling6: 0
-    - _NoiseTiling7: 0
-    - _NoiseTiling8: 0
-    - _NormalInfluence: -0.053
+    - _NoiseTiling: 300
+    - _NoiseTiling1: 64
+    - _NoiseTiling2: 64
+    - _NoiseTiling3: 64
+    - _NoiseTiling4: 64
+    - _NoiseTiling5: 64
+    - _NoiseTiling6: 64
+    - _NoiseTiling7: 64
+    - _NoiseTiling8: 64
+    - _NormalInfluence: 0.5
     - _Phong: 1
     - _ProceduralSnow: 1
     - _PuddleIntensity: 0.75
-    - _PuddleMetallic: 0
-    - _PuddleSmoothness: 0
-    - _Refraction: 0
-    - _Slope: 0
-    - _SlopeMin: 0
+    - _PuddleMetallic: 0.925
+    - _PuddleSmoothness: 0.95
+    - _Refraction: 0.07
+    - _Slope: 0.004
+    - _SlopeMin: 0.0025
     - _Smoothness0: 0
     - _Smoothness1: 0
     - _Smoothness2: 0
     - _Smoothness3: 0
-    - _SnowAmount: 1
-    - _SnowAngle: 0.253
+    - _SnowAmount: 0.75
+    - _SnowAngle: -0.7
     - _SnowDamping: 0
     - _SnowDetailStrength: 0.5
     - _SnowMapping: 0
@@ -277,13 +275,13 @@ Material:
     - _SnowNormalPower: 1
     - _SnowNormalStrength: 1
     - _SnowOpacity: 0.5
-    - _SnowPower: 1.331
+    - _SnowPower: 0.8
     - _SnowSlopeDamp: 1
     - _SnowSmoothness: 1
-    - _SnowStartHeight: 4500
+    - _SnowStartHeight: 3500
     - _SnowState: 1
     - _SnowThickness: 0
-    - _SnowTile: 2829
+    - _SnowTile: 2000
     - _SplatTiling1: 200
     - _SplatTiling2: 10
     - _SplatTiling3: 10
@@ -297,7 +295,7 @@ Material:
     - _TilingRemover6: 0
     - _TilingRemover7: 0
     - _TilingRemover8: 0
-    - _WaterHeight: 0
+    - _WaterHeight: 1
     - _WaterSlopeDamp: 0.5
     - _Wetness: 0.25
     - colorDamping1: 0.05
@@ -348,19 +346,19 @@ Material:
     - _Color2: {r: 1, g: 1, b: 1, a: 1}
     - _Color3: {r: 0.58143467, g: 0.8207692, b: 0.8867924, a: 1}
     - _Color4: {r: 1, g: 1, b: 1, a: 1}
-    - _LayerColor1: {r: 1, g: 1, b: 1, a: 1}
-    - _LayerColor2: {r: 1, g: 1, b: 1, a: 1}
-    - _LayerColor3: {r: 1, g: 1, b: 1, a: 1}
-    - _LayerColor4: {r: 1, g: 1, b: 1, a: 1}
-    - _LayerColor5: {r: 1, g: 1, b: 1, a: 1}
-    - _LayerColor6: {r: 1, g: 1, b: 1, a: 1}
-    - _LayerColor7: {r: 1, g: 1, b: 1, a: 1}
-    - _LayerColor8: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerColor1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _LayerColor2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _LayerColor3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _LayerColor4: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _LayerColor5: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _LayerColor6: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _LayerColor7: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _LayerColor8: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _LayerDirection: {r: 0, g: 0, b: 0, a: 1}
     - _LightingColor: {r: 1, g: 1, b: 1, a: 1}
-    - _PuddleColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PuddleColor: {r: 0.85, g: 0.85, b: 0.85, a: 1}
     - _SnowAccumulation: {r: 0, g: 1, b: 0, a: 0}
-    - _SnowColor: {r: 0.24999997, g: 0.24999997, b: 0.24999997, a: 1}
+    - _SnowColor: {r: 0.25, g: 0.25, b: 0.25, a: 1}
     - _SnowDetailTiling: {r: 4, g: 4, b: 0, a: 0}
     - _SnowMaskTiling: {r: 0.3, g: 0.3, b: 0, a: 0}
     - _SnowTiling: {r: 2, g: 2, b: 0, a: 0}
