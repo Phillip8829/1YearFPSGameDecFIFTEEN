@@ -34,13 +34,13 @@ TagManager:
   - Invisible Wall
   - Projectile
   - Interactable
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PostProcessing
+  - Terra_Vegetation
+  - Terra_Geometry
+  - Player
+  - Target
+  - Weapon
+  - PlayerCollisionOnly
   - 
   - 
   - 

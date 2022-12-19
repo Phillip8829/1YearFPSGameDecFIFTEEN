@@ -8,10 +8,8 @@ public class HelicopterController : MonoBehaviour
     public float movementSpeed = 15.0f;
     
     // Set the amount of force applied to the helicopter to make it hover
-    public float hoverForce = 50000.0f;
-
-    // Set the amount of force applied to the helicopter when it moves up or down
-    public float liftForce = 10.0f;
+    public float hoverForce;
+    
 
     // Set the amount of force applied to the helicopter when it moves left or right
     public float lateralForce = 0.005f;
@@ -40,19 +38,19 @@ public class HelicopterController : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             // Apply a upward force to the helicopter
-            rb.AddForce(Vector3.up * liftForce * 5);
+            rb.AddForce(transform.rotation * Vector3.up * 400f);
             rb.constraints = RigidbodyConstraints.None;
         }
         else if (Input.GetKey(KeyCode.S))
         {
             // Apply a downward force to the helicopter
-             rb.AddForce(Vector3.down * liftForce * 10f);
+             rb.AddForce(transform.rotation * Vector3.down * 400f);
              rb.constraints = RigidbodyConstraints.None;
 
         }
         else if (Input.GetKey(KeyCode.C))
         {
-            rb.AddForce(transform.rotation * (new Vector3(0,0,1)) * 50f);
+            rb.AddForce(transform.rotation * (new Vector3(0,0,1)) * 400f);
             rb.constraints = RigidbodyConstraints.None;
             rb.constraints = RigidbodyConstraints.FreezePositionX;
             rb.constraints = RigidbodyConstraints.FreezeRotationX;
@@ -61,7 +59,7 @@ public class HelicopterController : MonoBehaviour
         else if (Input.GetKey(KeyCode.Space))
         {
             // Apply a forward force to the helicopter
-            rb.AddForce(transform.rotation * (new Vector3(0,0,-1)) * 50f);
+            rb.AddForce(transform.rotation * (new Vector3(0,0,-1)) * 800f);
             rb.constraints = RigidbodyConstraints.None;
             rb.constraints = RigidbodyConstraints.FreezePositionX;
             rb.constraints = RigidbodyConstraints.FreezeRotationX;

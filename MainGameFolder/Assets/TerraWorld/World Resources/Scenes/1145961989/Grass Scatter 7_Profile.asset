@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c793b0f7de44a2f9666b4eb984b066, type: 3}
+  m_Name: Grass Scatter 7_Profile
+  m_EditorClassIdentifier: 
+  Scale: {x: 1, y: 1}
+  Radius: 300
+  GridSize: 50
+  Slant: 0.2
+  GroundOffset: 0
+  AmountPerBlock: 1000
+  Material: {fileID: 2100000, guid: 5880c9e2ca3abeb47a23bc24f343f1da, type: 2}
+  Layer: 0
+  AlphaMapThreshold: 0.5
+  DensityFactor: 0.5
+  CastShadows: 1
+  BuilderType: 5
+  Mesh: {fileID: 4300000, guid: 38695b293c9425242ad10debf1b82439, type: 3}
+  NormalType: 1
+  UV1Z:
+    OutDataType: 0
+  UV1W:
+    OutDataType: 0
+  VertexColorR:
+    OutDataType: 0
+  VertexColorG:
+    OutDataType: 0
+  VertexColorB:
+    OutDataType: 0
+  VertexColorA:
+    OutDataType: 0
+  Seed: 2059790975
+  minAllowedAngle: 15
+  maxAllowedAngle: 25
+  minAllowedHeight: -100000
+  maxAllowedHeight: 100000
+  mask: {fileID: 0}
+  maskData: []
+  maskDataFile: {fileID: 102900000, guid: fdcf69b8e69a5a4408919d0d6731a36b, type: 3}
+  isActive: 1
+  layerBasedPlacement: 0
+  bypassWater: 1
+  underWater: 0
+  onWater: 0
+  unityLayerMask: -1
+  exclusionOpacities:
+  - 0
+  - 0
+  - 0
+  - 0
+  undoMode: 1
+  brushDamping: 7
