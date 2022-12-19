@@ -3490,7 +3490,7 @@
     </nodes>
   </biomesGraph>
   <renderingGraph>
-    <_id>1676403496</_id>
+    <_id>1975427792</_id>
     <isActive>true</isActive>
     <_title>RENDERING</_title>
     <nodes>
@@ -3528,7 +3528,7 @@
         </sectionToggles>
         <outputConnectionType>Area</outputConnectionType>
         <Data>
-          <ID>978895664</ID>
+          <ID>1401550932</ID>
           <name>Rendering 1</name>
           <position>
             <X>0</X>
@@ -3711,7 +3711,7 @@
     </nodes>
   </renderingGraph>
   <FXGraph>
-    <_id>1923606793</_id>
+    <_id>2120888560</_id>
     <isActive>true</isActive>
     <_title>FX</_title>
     <nodes>
@@ -3749,7 +3749,7 @@
         </sectionToggles>
         <outputConnectionType>FXParameters</outputConnectionType>
         <Data>
-          <ID>1521432724</ID>
+          <ID>193092967</ID>
           <name>FX 1</name>
           <position>
             <X>0</X>
@@ -4190,7 +4190,7 @@
     <Enabled>true</Enabled>
     <timeOfDayParams>
       <dayNightControl>Static</dayNightControl>
-      <elevation>137</elevation>
+      <elevation>8.824837</elevation>
       <azimuth>60</azimuth>
       <dayNightSpeed>9</dayNightSpeed>
       <nightSpeedRatio>2</nightSpeedRatio>
@@ -4438,9 +4438,9 @@
       <m_NoiseFogAmount>0.8</m_NoiseFogAmount>
       <m_NoiseFogScale>0.033</m_NoiseFogScale>
       <m_AmbientLightColor>
-        <r>0.5981236</r>
-        <g>0.7237957</g>
-        <b>0.770095944</b>
+        <r>0.633</r>
+        <g>0.766</g>
+        <b>0.815</b>
         <a>1</a>
       </m_AmbientLightColor>
       <userColor>
@@ -4479,10 +4479,10 @@
         <a>1</a>
       </horizonFogVolumeColor>
       <horizonFogVolumeColorAuto>
-        <r>0.9985418</r>
-        <g>0.996520042</g>
-        <b>0.990498245</b>
-        <a>2.46999741</a>
+        <r>0.425644964</r>
+        <g>0.4237552</g>
+        <b>0.4178654</b>
+        <a>1.58902371</a>
       </horizonFogVolumeColorAuto>
       <visibilityUser>50000</visibilityUser>
       <startOffsetUser>0</startOffsetUser>
@@ -4522,7 +4522,7 @@
     <isPostProcessing>true</isPostProcessing>
     <postProcessingParams>
       <antiAliasingType>TemporalAntialiasing</antiAliasingType>
-      <PostProcessProfilePath>Assets/TerraWorld/World Resources/Scenes/778164122/PostProcessing Profile.asset</PostProcessProfilePath>
+      <PostProcessProfilePath />
     </postProcessingParams>
   </VFXDATA>
 </TTerraWorldGraph>
