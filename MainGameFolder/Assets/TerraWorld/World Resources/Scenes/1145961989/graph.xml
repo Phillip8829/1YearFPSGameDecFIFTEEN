@@ -3490,7 +3490,7 @@
     </nodes>
   </biomesGraph>
   <renderingGraph>
-    <_id>1975427792</_id>
+    <_id>247239474</_id>
     <isActive>true</isActive>
     <_title>RENDERING</_title>
     <nodes>
@@ -3528,7 +3528,7 @@
         </sectionToggles>
         <outputConnectionType>Area</outputConnectionType>
         <Data>
-          <ID>1401550932</ID>
+          <ID>2037161787</ID>
           <name>Rendering 1</name>
           <position>
             <X>0</X>
@@ -3711,7 +3711,7 @@
     </nodes>
   </renderingGraph>
   <FXGraph>
-    <_id>2120888560</_id>
+    <_id>1131817078</_id>
     <isActive>true</isActive>
     <_title>FX</_title>
     <nodes>
@@ -3749,7 +3749,7 @@
         </sectionToggles>
         <outputConnectionType>FXParameters</outputConnectionType>
         <Data>
-          <ID>193092967</ID>
+          <ID>1388552986</ID>
           <name>FX 1</name>
           <position>
             <X>0</X>
