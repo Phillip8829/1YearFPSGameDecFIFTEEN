@@ -3490,7 +3490,7 @@
     </nodes>
   </biomesGraph>
   <renderingGraph>
-    <_id>2070964052</_id>
+    <_id>2126951458</_id>
     <isActive>true</isActive>
     <_title>RENDERING</_title>
     <nodes>
@@ -3528,7 +3528,7 @@
         </sectionToggles>
         <outputConnectionType>Area</outputConnectionType>
         <Data>
-          <ID>355702256</ID>
+          <ID>247487024</ID>
           <name>Rendering 1</name>
           <position>
             <X>0</X>
@@ -3711,7 +3711,7 @@
     </nodes>
   </renderingGraph>
   <FXGraph>
-    <_id>1109515600</_id>
+    <_id>1230106269</_id>
     <isActive>true</isActive>
     <_title>FX</_title>
     <nodes>
@@ -3726,7 +3726,7 @@
           <BoundingBox>false</BoundingBox>
           <Outputs>false</Outputs>
           <Inputs>false</Inputs>
-          <Settings1>false</Settings1>
+          <Settings1>true</Settings1>
           <Settings2>false</Settings2>
           <Settings3>false</Settings3>
           <Settings4>false</Settings4>
@@ -3749,7 +3749,7 @@
         </sectionToggles>
         <outputConnectionType>FXParameters</outputConnectionType>
         <Data>
-          <ID>1166004354</ID>
+          <ID>1711568145</ID>
           <name>FX 1</name>
           <position>
             <X>0</X>
@@ -4190,9 +4190,9 @@
     <Enabled>true</Enabled>
     <timeOfDayParams>
       <dayNightControl>Dynamic</dayNightControl>
-      <elevation>0</elevation>
+      <elevation>302.481842</elevation>
       <azimuth>60</azimuth>
-      <dayNightSpeed>9</dayNightSpeed>
+      <dayNightSpeed>7.69</dayNightSpeed>
       <nightSpeedRatio>2</nightSpeedRatio>
       <nightDayColor>
         <colorKeys>
@@ -4353,7 +4353,7 @@
       <StarsPrefabPath>Assets/TerraWorld/World Resources/Scenes/628027623/Stars Prefab.prefab</StarsPrefabPath>
     </timeOfDayParams>
     <crepuscularParams>
-      <hasGodRays>false</hasGodRays>
+      <hasGodRays>true</hasGodRays>
       <godRaySamples>128</godRaySamples>
       <godRayDensity>1</godRayDensity>
       <godRayWeight>0.5</godRayWeight>
@@ -4479,10 +4479,10 @@
         <a>1</a>
       </horizonFogVolumeColor>
       <horizonFogVolumeColorAuto>
-        <r>0.9985418</r>
-        <g>0.996520042</g>
-        <b>0.990498245</b>
-        <a>2.46999741</a>
+        <r>0.047</r>
+        <g>0.043</g>
+        <b>0.035</b>
+        <a>1</a>
       </horizonFogVolumeColorAuto>
       <visibilityUser>50000</visibilityUser>
       <startOffsetUser>0</startOffsetUser>
@@ -4521,7 +4521,7 @@
     </colormapBlendingParams>
     <isPostProcessing>true</isPostProcessing>
     <postProcessingParams>
-      <antiAliasingType>TemporalAntialiasing</antiAliasingType>
+      <antiAliasingType>SubpixelMorphologicalAntialiasing</antiAliasingType>
       <PostProcessProfilePath />
     </postProcessingParams>
   </VFXDATA>
